@@ -35,19 +35,25 @@
 \contentsline {subsection}{\numberline {4.4.5}ObsPhiNodes()}{8}%
 \contentsline {subsection}{\numberline {4.4.6}ObsPhiColumn()}{8}%
 \contentsline {subsection}{\numberline {4.4.7}PhiMean()}{8}%
+\contentsline {subsection}{\numberline {4.4.8}meanWindow()}{8}%
 \contentsline {section}{\numberline {4.5}Analyzing Markets}{8}%
 \contentsline {subsection}{\numberline {4.5.1}ComputePhi()}{8}%
 \contentsline {subsection}{\numberline {4.5.2}StudyMartket() and StudyMarkets()}{8}%
-\contentsline {subsection}{\numberline {4.5.3}StudyPhi()}{8}%
-\contentsline {chapter}{\numberline {5}Issues Encountered}{10}%
-\contentsline {section}{\numberline {5.1}The Inactivity Problem}{10}%
-\contentsline {section}{\numberline {5.2}Time step and delay}{10}%
-\contentsline {section}{\numberline {5.3}CSV format}{10}%
-\contentsline {section}{\numberline {5.4}ProcessingTime}{11}%
-\contentsline {section}{\numberline {5.5}Errors Type}{11}%
-\contentsline {section}{\numberline {5.6}List instead of Arrays to make it dynamic (live)}{11}%
-\contentsline {chapter}{\numberline {6}Results}{12}%
-\contentsline {section}{\numberline {6.1}Evolution overtime}{12}%
-\contentsline {section}{\numberline {6.2}Correlation with Brier Score}{12}%
-\contentsline {chapter}{\numberline {7}Ideas of improvement}{13}%
-\contentsline {chapter}{\numberline {8}References}{14}%
+\contentsline {subsection}{\numberline {4.5.3}StudyPhi()}{9}%
+\contentsline {subsection}{\numberline {4.5.4}savePhiData()}{9}%
+\contentsline {subsection}{\numberline {4.5.5}BestRvalue()}{9}%
+\contentsline {subsection}{\numberline {4.5.6}PhiWindow()}{9}%
+\contentsline {chapter}{\numberline {5}User Guide}{10}%
+\contentsline {chapter}{\numberline {6}Issues Encountered}{11}%
+\contentsline {section}{\numberline {6.1}The Inactivity Problem}{11}%
+\contentsline {section}{\numberline {6.2}CSV format}{11}%
+\contentsline {section}{\numberline {6.3}ProcessingTime}{11}%
+\contentsline {section}{\numberline {6.4}Errors Type}{12}%
+\contentsline {section}{\numberline {6.5}List instead of Arrays to make it dynamic (live)}{12}%
+\contentsline {chapter}{\numberline {7}Results}{13}%
+\contentsline {section}{\numberline {7.1}Evolution overtime}{13}%
+\contentsline {section}{\numberline {7.2}Correlation with Brier Score}{14}%
+\contentsline {chapter}{\numberline {8}Ideas of improvement}{15}%
+\contentsline {section}{\numberline {8.1}Time step andd delay}{15}%
+\contentsline {section}{\numberline {8.2}Inactivity issue}{15}%
+\contentsline {chapter}{\numberline {9}References}{16}%

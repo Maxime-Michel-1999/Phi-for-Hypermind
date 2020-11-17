@@ -82,13 +82,12 @@ def ObsPhiProp(X,n = 98) :
         plt.grid(b=True, which='major', color='#666666', linestyle='-')
         plt.show()
         
-def PhiMean(X,end,p = 0.6):
-    start = 0.2
+def PhiMean(X,end,start = 0.5,p = 0.6):
     n = np.size(X,1)
     start = math.floor(n*start)
     end = math.floor(n*end)
     PhiList=[]
-    step = math.ceil((end-start)/10)
+    step = math.ceil((end-start)/5)
     for i in range(start,end,step):
         M = X[:,:i]
         M = purifyNullRow(M) #Take of the user that aren't active for the moment
@@ -101,8 +100,9 @@ def PhiMean(X,end,p = 0.6):
             if phi < 0 : phi = 0
             if math.isnan(phi) or math.isinf(phi) :
                 pass
-            else: PhiList.append(phi)
-                   
+            else: 
+                PhiList.append(phi)
+                
     mean = sum(PhiList)/len(PhiList)
     return(mean)
     
@@ -123,6 +123,8 @@ def ObsPhiNodes(X):
     plt.plot(lenList,phiList)
     plt.title("Correlation Phi Len")
     plt.grid(b=True, which='major', color='#666666', linestyle='-')
+    plt.xlabel('Number of Users')
+    plt.ylabel('Phi Value')     
     plt.show()
         
 
@@ -134,7 +136,7 @@ def ObsPhiColumn(X):
     X = purifyProp(X,0.6)
     
     for i in range(30):
-        A = addColumn(X,i)
+        A = addColumn(X,i,0.01)
         phi = ARphiData(A,1)
         phiList.append(phi)
         lenList.append(np.size(A,1))
@@ -142,6 +144,8 @@ def ObsPhiColumn(X):
     plt.plot(lenList,phiList)
     plt.title("Correlation Phi Obs")
     plt.grid(b=True, which='major', color='#666666', linestyle='-')
+    plt.xlabel('Number of Observation (Column)')
+    plt.ylabel('Phi Value') 
     plt.show()
     
 
@@ -162,17 +166,17 @@ def ObsZerosColumn(X):
     plt.show()
         
         
-def PhiEv(X):
+def PhiEv(X,p=0.6):
     #This function wil allow us to follow the evolution of phi following time
     
-    start = 20 #♣This is the time step at which we start mesuring
+    start = 20 #This is the time step at which we start mesuring
     phiList =[]
     timestepList = []
     nobs=np.size(X,1)
-    p=0.6
     print("We eliminate ",p*100, "% of the most inactive users")
-    for i in range(start,nobs):
-        Y = X [:,:i]     
+    for i in range(start,nobs,2): #2 is a step to reduce the processing time that can be very long if the market's long.
+        Y = X [:,:i]    
+        Y = purifyNullRow(Y)
         Y = purifyProp(Y,p)
         timestepList.append(i)
         
@@ -190,8 +194,32 @@ def PhiEv(X):
     plt.plot(timestepList,phiList,'b')
     plt.title("Evolution of Phi")
     plt.grid(b=True, which='major', color='#666666', linestyle='-')
-    plt.yscale("log")         
+    plt.yscale("log")   
+    plt.xlabel('Timestep')
+    plt.ylabel('Phi Value')      
     plt.show()
     
 
+def meanWindow(X,p,s=20): 
+           
+        PhiList = []
+        size = s #This is the size of the window, meaning the size of the matrix we will consider
+        for step in range(size,np.size(X,1)):
+                 start = step - size                 
+                 M = purifyNullRow(X[:,start:step])
+                 M = purifyProp(M,p)
+                 try :
+                     phi = ARphiData(M)
+                 except:
+                     pass      
+                 else :
+                     if phi < 0 : phi = 0
+                     if math.isnan(phi) or math.isinf(phi) :
+                                pass
+                     else :
+                         PhiList.append(phi)
 
+        mean = sum(PhiList)/len(PhiList)
+        return(mean)     
+       
+    

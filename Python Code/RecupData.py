@@ -93,7 +93,7 @@ def ComputeX():
     m = 0
         
     #First it gather all information about
-    with open(r'C:\Users\maxim\Desktop\Stage\Data\SP2K3K.csv') as f:
+    with open('..\Data\SP2K3K.csv') as f:
         reader = csv.reader(f, delimiter = ',')
     
         for row in reader:
@@ -112,7 +112,7 @@ def ComputeX():
     #Then we build the matrix
     X = np.zeros((n,m))
     
-    with open(r'C:\Users\maxim\Desktop\Stage\Data\SP2K3K.csv') as f:
+    with open('..\Data\SP2K3K.csv') as f:
         reader = csv.reader(f, delimiter = ',')
         for row in reader:
         
@@ -136,7 +136,7 @@ def ManageData():
      UserLists = [] #List of the Lists of users in each markets
      TimeLists = [] #List of the Lists of timesteps in each markets
      
-     with open(r'C:\Users\maxim\Desktop\Git Stage\Phi-for-Hypermind\Trades.csv') as f:
+     with open('..\Data\Trades.csv') as f:
         reader = csv.reader(f, delimiter = ';')
         for row in reader :
             MarketId = row[1]
@@ -173,7 +173,7 @@ def ManageData():
     
     
     
-     with open(r'C:\Users\maxim\Desktop\Git Stage\Phi-for-Hypermind\Trades.csv') as f:
+     with open('..\Data\Trades.csv') as f:
         reader = csv.reader(f, delimiter = ';')
         for row in reader :
             MarketId = row[1]
@@ -206,7 +206,7 @@ def recupError():
     A= ManageData()
     n = len(A[0])
     ErrorList = [0]*n
-    with open(r'C:\Users\maxim\Desktop\Git Stage\Phi-for-Hypermind\BrierScore.csv') as f:
+    with open('..\Data\BrierScore.csv') as f:
         reader = csv.reader(f, delimiter = ';')
         for row in reader :
             MarketId = row[0]

@@ -17,7 +17,7 @@ def findIndex(m, X): #Enable to find index of a index in a array (in which .inde
         if v == m :
             return i
 
-def purifyProp(X,p = 0.2):
+def purifyProp(X,p = 0.3):
     
     # This function we'll take out the given pourcentage of the most inactive users
     
@@ -66,7 +66,7 @@ def purifyProp(X,p = 0.2):
     return X
 
 
-def purifyVal(X,v):
+def purifyVal(X,v): #Removing user under a certain value v
     nobs = np.size(X,1) #nombre de colonne (nombre d'observation)
     nall = np.size(X)
     nvar = nall/nobs #nombre de ligne (nombre de user)
@@ -132,7 +132,7 @@ def purifyRowRandom(X,prop = 0.6):
     X = np.delete(X,outList,0)   
     return(X)
     
-def addColumn(X,n,p):
+def addColumn(X,n,p = 0.05):
     M = np.zeros((np.size(X,0),np.size(X,1) + n))
     M[:,0:np.size(X,1)] = X
     for i in range(np.size(X,1),np.size(X,1) + n):

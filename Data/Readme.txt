@@ -1,0 +1,3 @@
+Be sure to have read the documentation of this project (in the file 'report') before bringing new data. 
+Python won't recognize the path to your new files by itself.
+The format of your .CSV needs to be checked.

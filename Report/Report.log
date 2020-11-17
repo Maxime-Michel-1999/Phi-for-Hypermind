@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.7.1)  29 JUL 2020 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6) (preloaded format=pdflatex 2020.7.1)  5 AUG 2020 11:53
 entering extended mode
 **./Report.tex
 (Report.tex
@@ -84,41 +84,65 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@dimlist=\toks16
 
 (C:\Users\maxim\Desktop\Latex\Installation\tex/latex/geometry\geometry.cfg))
+(C:\Users\maxim\Desktop\Latex\Installation\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+
+(C:\Users\maxim\Desktop\Latex\Installation\tex/latex/caption\caption.sty
+Package: caption 2020/05/30 v3.4k Customizing captions (AR)
+
+(C:\Users\maxim\Desktop\Latex\Installation\tex/latex/caption\caption3.sty
+Package: caption3 2020/05/30 v1.12 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen145
+\captionmargin@=\dimen146
+\captionwidth=\dimen147
+\caption@tempdima=\dimen148
+\caption@indent=\dimen149
+\caption@parindent=\dimen150
+\caption@hangindent=\dimen151
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count179
+\c@continuedfloat=\count180
+)
+\c@subfigure=\count181
+\c@subtable=\count182
+)
 (C:\Users\maxim\Desktop\Latex\Installation\tex/latex/l3backend\l3backend-pdfmod
 e.def
 File: l3backend-pdfmode.def 2020-06-23 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count179
+\l__kernel_color_stack_int=\count183
 \l__pdf_internal_box=\box45
-)
-No file Report.aux.
+) (Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
 (C:\Users\maxim\Desktop\Latex\Installation\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count180
-\scratchdimen=\dimen145
+\scratchcounter=\count184
+\scratchdimen=\dimen152
 \scratchbox=\box46
-\nofMPsegments=\count181
-\nofMParguments=\count182
+\nofMPsegments=\count185
+\nofMParguments=\count186
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count183
-\MPscratchDim=\dimen146
-\MPnumerator=\count184
-\makeMPintoPDFobject=\count185
+\MPscratchCnt=\count187
+\MPscratchDim=\dimen153
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
 \everyMPtoPDFconversion=\toks18
 )
 (C:\Users\maxim\Desktop\Latex\Installation\tex/latex/epstopdf-pkg\epstopdf-base
@@ -161,12 +185,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 14.
 [1
 
 {C:/Users/maxim/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
@@ -176,26 +202,21 @@ Chapter 1.
 ]
 Chapter 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(Font)              <7> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
+(Font)              <5> on input line 26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
@@ -205,12 +226,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
@@ -219,7 +245,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 ]
 Chapter 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
@@ -228,87 +254,170 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 ]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[6] [7] [8] [9]
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+[9]
 Chapter 5.
 [10
 
-] [11]
-Chapter 6.
-[12
-
 ]
+Chapter 6.
+[11
+
+] [12]
 Chapter 7.
+<./Graphs/PhiEv-Market-1416-0.5-Removed.png, id=56, 249.93375pt x 172.84575pt>
+File: ./Graphs/PhiEv-Market-1416-0.5-Removed.png Graphic file (type png)
+<use ./Graphs/PhiEv-Market-1416-0.5-Removed.png>
+Package pdftex.def Info: ./Graphs/PhiEv-Market-1416-0.5-Removed.png  used on in
+put line 338.
+(pdftex.def)             Requested size: 176.15813pt x 121.82988pt.
+<./Graphs/PhiEv-Market-1443-0.5-Removed.png, id=58, 250.536pt x 171.64125pt>
+File: ./Graphs/PhiEv-Market-1443-0.5-Removed.png Graphic file (type png)
+<use ./Graphs/PhiEv-Market-1443-0.5-Removed.png>
+Package pdftex.def Info: ./Graphs/PhiEv-Market-1443-0.5-Removed.png  used on in
+put line 345.
+(pdftex.def)             Requested size: 176.15813pt x 120.68494pt.
+<./Graphs/PhiEv-Market-1413-0.4-Removed.png, id=59, 247.52475pt x 173.448pt>
+File: ./Graphs/PhiEv-Market-1413-0.4-Removed.png Graphic file (type png)
+<use ./Graphs/PhiEv-Market-1413-0.4-Removed.png>
+Package pdftex.def Info: ./Graphs/PhiEv-Market-1413-0.4-Removed.png  used on in
+put line 352.
+(pdftex.def)             Requested size: 176.15813pt x 123.4427pt.
+<./Graphs/PhiEv-Market-1439-0.4-Removed.png, id=60, 248.127pt x 169.8345pt>
+File: ./Graphs/PhiEv-Market-1439-0.4-Removed.png Graphic file (type png)
+<use ./Graphs/PhiEv-Market-1439-0.4-Removed.png>
+Package pdftex.def Info: ./Graphs/PhiEv-Market-1439-0.4-Removed.png  used on in
+put line 358.
+(pdftex.def)             Requested size: 176.15813pt x 120.57297pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--362
+[][][]
+ []
+
+<./Graphs/PhiNodes-Market-1410-0.6-Removed.png, id=61, 247.52475pt x 169.23225p
+t>
+File: ./Graphs/PhiNodes-Market-1410-0.6-Removed.png Graphic file (type png)
+<use ./Graphs/PhiNodes-Market-1410-0.6-Removed.png>
+Package pdftex.def Info: ./Graphs/PhiNodes-Market-1410-0.6-Removed.png  used on
+ input line 372.
+(pdftex.def)             Requested size: 176.15813pt x 120.44237pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 373.
+<./Graphs/PhiColumn-Market-1428-0.6-Removed.png, id=62, 243.91125pt x 170.43675
+pt>
+File: ./Graphs/PhiColumn-Market-1428-0.6-Removed.png Graphic file (type png)
+<use ./Graphs/PhiColumn-Market-1428-0.6-Removed.png>
+Package pdftex.def Info: ./Graphs/PhiColumn-Market-1428-0.6-Removed.png  used o
+n input line 379.
+(pdftex.def)             Requested size: 176.15813pt x 123.09404pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--385
+[][][]
+ []
+
 [13
 
-]
+ <./Graphs/PhiEv-Market-1416-0.5-Removed.png> <./Graphs/PhiEv-Market-1443-0.5-R
+emoved.png> <./Graphs/PhiEv-Market-1413-0.4-Removed.png> <./Graphs/PhiEv-Market
+-1439-0.4-Removed.png>] [14 <./Graphs/PhiNodes-Market-1410-0.6-Removed.png> <./
+Graphs/PhiColumn-Market-1428-0.6-Removed.png>]
 Chapter 8.
-[14
 
-]
-No file Report.toc.
-\tf@toc=\write3
-\openout3 = `Report.toc'.
+Underfull \hbox (badness 10000) in paragraph at lines 398--401
+
+ []
 
 [15
 
-] (Report.aux) ) 
+]
+Chapter 9.
+
+Overfull \hbox (37.9755pt too wide) in paragraph at lines 408--410
+\OT1/cmr/m/n/10 ma-tion as a met-ric for group in-ter-ac-tion. PLoS ONE 13(10):
+ e0205335. https://doi.org/10.1371/journal.pone.0205335 
+ []
+
+[16
+
+] (Report.toc [17
+
+])
+\tf@toc=\write3
+\openout3 = `Report.toc'.
+
+ [18] (Report.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2165 strings out of 480790
- 30476 string characters out of 2898700
- 279982 words of memory out of 3000000
- 18197 multiletter control sequences out of 15000+200000
- 538140 words of font info for 43 fonts, out of 3000000 for 9000
+ 3477 strings out of 480790
+ 55779 string characters out of 2898700
+ 304223 words of memory out of 3000000
+ 19475 multiletter control sequences out of 15000+200000
+ 539052 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,37p,644b,179s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\maxim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
-ec/dpi600\tcrm1000.pk><C:/Users/maxim/Desktop/Latex/Installation/fonts/type1/pu
-blic/amsfonts/cm/cmbx10.pfb><C:/Users/maxim/Desktop/Latex/Installation/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/maxim/Desktop/Latex/Installation/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/maxim/Desktop/Latex/Installat
-ion/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maxim/Desktop/Latex/Ins
-tallation/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/maxim/Desktop/Late
-x/Installation/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maxim/Desktop
-/Latex/Installation/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maxim/De
-sktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/max
-im/Desktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/User
-s/maxim/Desktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
-Users/maxim/Desktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Users/maxim/Desktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cms
-y7.pfb>
-Output written on Report.pdf (16 pages, 168084 bytes).
+ 45i,8n,47p,655b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\maxim\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><C:/Users/maxim/Desktop/Latex/Installation/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Users/maxim/Desktop/Latex/Installation/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/maxim/Desktop/Latex/Installation/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/maxim/Desktop/Latex/Installation/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Users/maxim/Desktop/Latex/Installation/font
+s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/maxim/Desktop/Latex/Installation
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/maxim/Desktop/Latex/Install
+ation/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/maxim/Desktop/Latex/In
+stallation/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/maxim/Desktop/Lat
+ex/Installation/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maxim/Deskto
+p/Latex/Installation/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maxim/D
+esktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/max
+im/Desktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users
+/maxim/Desktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/maxim/Desktop/Latex/Installation/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b>
+Output written on Report.pdf (19 pages, 284834 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
